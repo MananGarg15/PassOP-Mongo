@@ -3,13 +3,9 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { useState } from 'react'
 
-/**
- *
- * @param {Array} passwordArray
- */
+
 const copyContent = items => {
-  // Clipboard
-  // alert(items)
+
   navigator.clipboard.writeText(items)
   toast('Copied to clipboard! ', {
     position: 'top-center',
