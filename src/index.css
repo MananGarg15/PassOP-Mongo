@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.combined-hover-styles {
+    @apply hover:bg-orange-300 hover:shadow-orange-500 hover:shadow-lg hover:drop-shadow-lg hover:-translate-y-[3px] hover:-translate-x-[2px] hover:transition-transform;
+  }
+  /* .item { */
+    /* @apply word-wrap: break-word; */
+    /* Add any other Tailwind classes you need */
+  /* } */
+.item-2{
+  @apply order-2
+}
