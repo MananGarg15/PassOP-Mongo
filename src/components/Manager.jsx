@@ -73,11 +73,9 @@ const Manager = () => {
       progress: undefined,
       theme: 'light'
     })
-    // console.log([...passwordArray, form])
   }
 
   const showPass = () => {
-    // alert('showPass')
     if (ref.current.src.includes('eye.png')) {
       ref.current.src = 'eyeCross.png'
       ref.current.className = 'w-7 cursor-pointer relative bottom-2 left-1'
